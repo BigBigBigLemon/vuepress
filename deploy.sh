@@ -14,11 +14,11 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'depoly脚本更新'
+git commit -m 'deploy脚本更新'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-git push git@github.com:BigBigBigLemon/BigBigBigLemon.github.io.git master
+git push -f git@github.com:BigBigBigLemon/BigBigBigLemon.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 #git push -f git@github.com:BigBigBigLemon/blog.git master:gh-pages
